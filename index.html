@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>REHANI</title>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body class="bg-gray-200 md:overflow-x-hidden">
+    
+    <!-- navigation bar -->
+    <nav class="relative" style="background-image: url(img/header.png);" >
+        <div class="mx-auto w-11/12 h-24">
+            <div class="flex justify-between items-start ">
+            <div>
+                <a href="#"><img class="absolute w-48 lg:-mt-14 mt-7 z-20" src="img/Rehani.png" alt="Rehani"></a> 
+            </div>
+            <!-- 320px class proformed in items like hidden -->
+            <div class="flex mt-4 bg-transparent/10 rounded-full px-2  ">
+                <input type="text" class="hidden lg:block bg-transparent/5 border-none border border-yellow-300 px-6 py-3 placeholder:text-white/80
+                 placeholder:text-lg rounded-full pl-5 "  placeholder="City, Country, Region, State...|">
+                <a href="#"><img class="hidden lg:block pr-3 mt-2" src="img/user.png" alt="user"></a>
+                <span class="hidden lg:block pr-5 mt-3 text-white/80">Invite</span>
+                <a href="#"><img class="hidden lg:block bg-yellow-400 mt-2 rounded-full  " src="img/search.png" alt="search"></a>
+            </div>
+            <div class="flex mt-4 bg-transparent/10  px-2 py-1 rounded-full">
+                <a href="#"><img class="w-10 h-10" src="img/list-outline.svg" alt="list-outline"></a>
+                <a href="#"><img class="w-10 h-10 bg-yellow-300 rounded-full" src="img/person-c.svg" alt="person-c"></a>
+            </div>
+        </div>
+        </div>
+    </nav>
+     <!-- header -->
+
+     <div class="">
+        <div class="relative flex justify-center items-center text-lg w-full h-44 " style="background-image: url(img/header.png) ;">
+            <a class="absolute lg:right-20 sm:right-[30%]  bottom-5 bg-yellow-300 px-2 py-1 rounded-full" href="#"> Create Listing</a>
+
+        </div>
+     </div>
+
+     <!-- card -->
+     <div class="bg-gray-800">
+     <div class="lg:w-11/12   mx-auto flex flex-col  relative bg-gray-200">
+          <div class="lg:fixed lg:bottom-0 lg:max-w-[415px] w-full bg-white border-4 border-white rounded-lg">
+        <div class=" flex justify-center items-center gap-1 lg:w-full md:w-5/12 sm:w-6/12 sm:mx-auto ">
+            <img class="lg:w-auto w-24" src="img/p.card-1.jpg" alt="p.card-1">
+            <img class="lg:w-auto w-28" src="img/p.card-2.jpg" alt="p.card-2">
+            <img class="lg:w-auto w-24" src="img/p.card-3.jpg" alt="p.card-3">
+        </div>
+        <div class="absolute lg:top-10 top-10 lg:left-36 md:left-80 sm:left-64 left-24">
+            <img class="rounded-full w-32 " src="img/michelle-belo.jpg" alt="michelle-belo">
+        </div>
+        <div class="mt-14 p-2">
+            <h3 class="text-2xl font-medium text-center">Michelle Bello</h3>
+            <div><p class="text-center opacity-50 text-lg font-semibold mb-2">Realtor</p></div>
+            <div class="flex justify-center items-center">
+                <img class="w-6 h-6 mr-3 " src="img/location_icon.png" alt="location">
+                <p class="text-xl">Lagos,Nigeria</p></div>
+            </div>
+            <div class="px-5">
+            <div class="flex justify-between lg:px-16 ">
+                <span class="text-lg font-medium opacity-50">Listings</span>
+                <span class=" font-bold">1,124</span>
+            </div>
+            <div class="flex justify-between lg:px-16">
+                <span class="text-lg font-medium opacity-50">Followers</span>
+                <span class="font-bold">34k</span>
+            </div>
+            <div class="flex justify-between lg:px-16">
+                <span class="text-lg font-medium opacity-50">Following</span>
+                <span class="font-bold">1294</span>
+            </div>
+            <div class="flex justify-between lg:px-16 mb-5">
+                <span class="text-lg font-medium opacity-50">Experience</span>
+                <span class="font-bold">5 years</span>
+            </div>
+        
+            <div class="flex justify-center items-center gap-3">
+                <div class="flex justify-center items-center lg:px-12 lg:py-4 px-6 py-1 rounded-full bg-yellow-300">
+                <a href="#"><img class="lg:w-6 lg:h-6 w-4 h-4 mr-3" src="img/follower.png" alt="Follow"></a>
+                <span class="lg:text-xl text-base">Follow</span>
+            </div>
+            <div class="flex justify-center items-center lg:px-12 lg:py-4 px-6 py-1 rounded-full bg-gray-100">
+                <a href="#"><img class="lg:w-6 lg:h-6 w-5 h-5 " src="img/message.png" alt="message"></a>
+                 <span class="lg:text-xl text-base">Message</span>
+                </div>
+            </div>
+            <div class="flex flex-row justify-center gap-4 mt-5 mb-1">
+                <button class="px-4 py-1 w-full mt-4 lg:px-8 lg:py-3 text-white bg-black rounded-full font-bold-500">Book Appointment</button>
+            </div>
+            <div class="flex justify-center items-center gap-3">
+                <img class="w-8 h-8" src="img/facebook.png.png" alt="facebook">
+                <img class="w-8 h-8" src="img/instragram.png.png" alt="instragram">
+                <img class="w-8 h-8" src="img/youtube.png.png" alt="youtube">
+                <img class="w-8 h-8" src="img/world.png.png" alt="world">
+                <img class="w-8 h-8" src="img/twitter_bird_icon.png" alt="twitter_bird_icon">
+            </div>
+        </div>
+     </div> 
+     <div class="lg:w-8/12 w-full lg:pl-20 lg:absolute lg:-right-7 px-5 ">
+        <div class="">
+            <ul class="flex flex-wrap justify-between items-end mt-3 text-lg mb-5">
+                <li><a class="lg:text-xl text-base font-semibold hover:text-white hover:bg-black px-4 py-1 rounded-full " href="#">Current Listings</a></li>
+                <li><a class="lg:text-xl text-base font-semibold hover:text-white hover:bg-black px-4 py-1 rounded-full " href="#">Open House</a></li>
+                <li><a class="lg:text-xl text-base font-semibold hover:text-white hover:bg-black px-4 py-1 rounded-full " href="#">Reviews</a></li>
+                <li><a class="lg:text-xl text-base font-semibold hover:text-white hover:bg-black px-4 py-1 rounded-full " href="#">Past Listings</a></li>
+            
+            <div class="relative  mt-5 ">
+                <div><img class="absolute bg-gray-300 lg:left-1  rounded-full mt-0.5" src="img/search.png" alt="search"></div>
+                <input type="text" class="block border-none bg-slate-100 border-2 border-blue-600 px-4 py-1 rounded-full placeholder:text-lg" placeholder="&nbsp &nbsp &nbsp  &nbsp Search Listings...">
+            </div>
+        </ul>
+        </div>
+
+        <!-- section home images -->
+                                             <!-- images-1 -->
+         <div class="grid lg:grid-cols-2 grid-cols-1 gap-10">
+            
+            
+            <!-- <div class="carousel relative shadow-2xl bg-white">
+                <div class="carousel-inner relative overflow-hidden w-2/3"> -->
+                  <!--Slide 1-->
+                  <!-- <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                  <div class="carousel-item absolute opacity-0" style="height:75vh;">
+                    <div class="block h-full w-full bg-yellow-500 text-white text-5xl text-center">Slide 1</div>
+                  </div> -->
+                  <!-- <label for="carousel-3" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-yellow-500 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+                  <label for="carousel-2" class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label> -->
+            
+                  <!--Slide 2-->
+                  <!-- <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                  <div class="carousel-item absolute opacity-0" style="height:75vh;">
+                    <div class="block h-full w-full bg-yellow-500 text-white text-5xl text-center">Slide 2</div>
+                  </div>
+                  <label for="carousel-1" class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+                  <label for="carousel-3" class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+             -->
+                  <!-- Slide 3
+                  <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                  <div class="carousel-item absolute opacity-0" style="height:75vh;">
+                    <div class="block h-full w-full bg-yellow-500 text-white text-5xl text-center">Slide 3</div>
+                  </div>
+                  <label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+                  <label for="carousel-1" class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+            
+                  
+                </div>
+              </div> -->
+
+    
+
+  
+  
+         <div class="relative mb-5">
+            <div>
+                <div>
+                    <img class="w-full rounded-lg mb-2" src="img/cards-1.jpg" alt="card-1">
+                    <img class="absolute lg:top-28 sm:top-36 md:top-44 top-16 left-4 w-8 h-8  bg-white  rounded-full" src="img/left.png" alt="left">
+                    <img class="absolute lg:top-28 sm:top-36 md:top-44 top-16 right-4 w-8 h-8 bg-white rounded-full" src="img/right.png" alt="right">
+                </div>
+                <div class="flex justify-between px-3">
+                    <h1 class="text-2xl font-semibold">Home in Metric Way</h1>
+                    <img class="w-8 h-8 bg-yellow-300" src="img/heart_icon.png" alt="heart_icon">
+                </div>
+                
+                <span class="text-lg font-semibold opacity-25 px-3">East Legon, Accra, Ghana</span>
+                <div class="flex justify-between items-center px-3">
+                    <div>
+                        <span class="bg-yellow-300 px-4 py-1 text-white">Buy</span>
+                        <span>125000$</span>
+                    </div>
+                    <div class="flex   items-center px-3">
+                        <img class="w-6 h-6 mr-2" src="img/like.png" alt="like">
+                        <span>360</span>
+                        <img class="mr-1" src="img/eye.png" alt="eye">
+                        <span>1.2k</span>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center px-3">
+                    <div class="flex items-center">
+                        <img class="w-8 h-8 bg-yellow-500" src="img/bed.png" alt="bed">
+                    <span>3 Bed</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="w-8 h-8 bg-yellow-500" src="img/bath.png" alt="bath">
+                    <span>2 Bath</span>
+                    </div>
+                    
+                    <div class="flex items-center">
+                        <img class="w-6 h-6 bg-yellow-500" src="img/angle.png" alt="angle">
+                    <span>2300 Sq.ft</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                           <!-- images-2 -->
+        <div class="mb-5">
+            <div>
+                <div>
+                    <img class="w-full rounded-lg mb-2" src="img/cards-4.jpg" alt="card-4">
+                </div>
+                <div class="flex justify-between px-1 ">
+                    <h1 class="lg:text-2xl text-base font-semibold">Villa on Hollywood Boulevard</h1>
+                    <img class="w-8 h-8 " src="img/heart_icon.png" alt="heart_icon">
+                </div>
+                
+                <span class="block lg:text-lg text-base font-semibold opacity-25 mb-2  px-1">Eko Atlantic, Nigeria</span>
+                <div class="flex justify-between items-center mb-3  px-1">
+                    <div>
+                        <a href="#"><span class="bg-gray-300 lg:px-4 px-2 py-1 text-sm text-white">Rent</span></a>
+                        <h3 class="inline text-base" ><span class="font-semibold lg:text-lg text-base">500$</span>/month</h3>
+                    </div>
+                    <div class="flex justify-between items-center px-1">
+                        <img class="lg:w-6 lg:h-6 w-4 h-4 mr-1" src="img/like.png" alt="like">
+                        <span>360</span>
+                        <img class="mr-1 w-4 h-4" src="img/eye.png" alt="eye">
+                        <span>1.2k</span>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center px-1 ">
+                    <div class="flex items-center">
+                        <img class="w-8 h-8 bg-yellow-500" src="img/bed.png" alt="bed">
+                    <span>3 Bed</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="w-8 h-8 bg-yellow-500" src="img/bath.png" alt="bath">
+                    <span>2 Bath</span>
+                    </div>
+                    
+                    <div class="flex items-center">
+                        <img class="w-6 h-6 bg-yellow-500" src="img/angle.png" alt="angle">
+                    <span>2300 Sq.ft</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <!-- images-3 -->
+
+        <div class="mb-5">
+            <div>
+                <div>
+                    <img class="w-full rounded-lg mb-2" src="img/cards-3.jpg" alt="card-2">
+                </div>
+                <div class="flex justify-between  mb-2 px-1 ">
+                    <h1 class="lg:text-2xl text-base font-semibold">Home in Metric Way</h1>
+                    <img class="w-8 h-8 bg-yellow-300" src="img/heart_icon.png" alt="heart_icon">
+                </div>
+                
+                <span class="block lg:text-lg text-base font-semibold opacity-25 mb-2">East Legon, Accra, Ghana</span>
+                <div class="flex justify-between items-center px-1">
+                    <div>
+                        <span class="bg-yellow-300 lg:px-4 px-2 py-1 text-white">Buy</span>
+                        <span class="text-sm">125000$</span>
+                    </div>
+                    <div class="flex  items-center mb-3 px-1">
+                        <img class="lg:w-6 lg:h-6 w-4 h-4 mr-1" src="img/like.png" alt="like">
+                        <span>360</span>
+                        <img class="mr-1 w-4 h-4" src="img/eye.png" alt="eye">
+                        <span>1.2k</span>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center px-1">
+                    <div class="flex items-center">
+                        <img class="w-8 h-8 bg-yellow-500" src="img/bed.png" alt="bed">
+                    <span>3 Bed</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="w-8 h-8 bg-yellow-500" src="img/bath.png" alt="bath">
+                    <span>2 Bath</span>
+                    </div>
+                    
+                    <div class="flex items-center">
+                        <img class="w-6 h-6 bg-yellow-500" src="img/angle.png" alt="angle">
+                    <span>2300 Sq.ft</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+                <!-- images-4 -->
+
+                <div class=" mb-5">
+                    <div>
+                        <div>
+                            <img class="w-full rounded-lg mb-2" src="img/cards-2.jpg" alt="card-2">
+                        </div>
+                        <div class="flex justify-between  px-1">
+                            <h1 class="lg:text-2xl text-base font-semibold">Villa on Hollywood Boulevard</h1>
+                    <img class="w-8 h-8 " src="img/heart_icon.png" alt="heart_icon">
+                </div>
+                
+                <span class="block lg:text-lg text-base font-semibold opacity-25 mb-2 px-1 ">Eko Atlantic, Nigeria</span>
+                <div class="flex justify-between items-center mb-3 px-1">
+                    <div>
+                        <a href="#"><span class="bg-gray-300 lg:px-4 px-2 py-1 text-sm text-white">Rent</span></a>
+                        <h3 class="inline text-base" ><span class="font-semibold lg:text-lg text-base">500$</span>/month</h3>
+                    </div>
+                    <div class="flex justify-between items-center px-1">
+                        <img class="lg:w-6 lg:h-6 w-4 h-4 mr-1" src="img/like.png" alt="like">
+                        <span>360</span>
+                        <img class="mr-1 w-4 h-4" src="img/eye.png" alt="eye">
+                        <span>1.2k</span>
+                    </div>
+                </div>
+                        <div class="flex justify-between items-center px-1">
+                            <div class="flex items-center">
+                                <img class="w-8 h-8 bg-yellow-500" src="img/bed.png" alt="bed">
+                            <span>3 Bed</span>
+                            </div>
+                            <div class="flex items-center">
+                                <img class="w-8 h-8 bg-yellow-500" src="img/bath.png" alt="bath">
+                            <span>2 Bath</span>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <img class="w-6 h-6 bg-yellow-500" src="img/angle.png" alt="angle">
+                            <span>2300 Sq.ft</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                 <!-- images-5 -->
+                 <div class=" mb-5">
+                    <div>
+                        <div>
+                            <img class=" w-full rounded-lg mb-2" src="img/cards-4.jpg" alt="cards-4">
+
+                        </div>
+                        <div class="flex justify-between px-1 ">
+                            <h1 class="lg:text-2xl text-base font-semibold">Home in Metric Way</h1>
+                    <img class="w-8 h-8 bg-yellow-300" src="img/heart_icon.png" alt="heart_icon">
+                </div>
+                
+                <span class="block lg:text-lg text-base font-semibold opacity-25 px-1 mb-2">East Legon, Accra, Ghana</span>
+                <div class="flex justify-between items-center px-1 ">
+                    <div>
+                        <span class="bg-yellow-300 lg:px-4 px-2 py-1 text-white">Buy</span>
+                        <span class="text-sm">125000$</span>
+                    </div>
+                    <div class="flex  items-center mb-3 px-1">
+                        <img class="lg:w-6 lg:h-6 w-4 h-4 mr-1" src="img/like.png" alt="like">
+                        <span>360</span>
+                        <img class="mr-1 w-4 h-4" src="img/eye.png" alt="eye">
+                        <span>1.2k</span>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center px-1">
+                            <div class="flex items-center">
+                                <img class="w-8 h-8 bg-yellow-500" src="img/bed.png" alt="bed">
+                            <span>3 Bed</span>
+                            </div>
+                            <div class="flex items-center">
+                                <img class="w-8 h-8 bg-yellow-500" src="img/bath.png" alt="bath">
+                            <span>2 Bath</span>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <img class="w-6 h-6 bg-yellow-500" src="img/angle.png" alt="angle">
+                            <span>2300 Sq.ft</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- images-6 -->
+
+                <div class=" mb-5">
+                    <div>
+                        <div>
+                            <img class="w-full rounded-lg mb-2" src="img/cards-3.jpg" alt="card-3">
+                        </div>
+                        <div class="flex justify-between  px-1">
+                            <h1 class="lg:text-2xl text-base font-semibold">Villa on Hollywood Boulevard</h1>
+                    <img class="w-8 h-8 " src="img/heart_icon.png" alt="heart_icon">
+                </div>
+                
+                <span class="block lg:text-lg text-base font-semibold opacity-25 mb-2 px-1">Eko Atlantic, Nigeria</span>
+                <div class="flex justify-between items-center mb-3 px-1">
+                    <div>
+                        <a href="#"><span class="bg-gray-300 lg:px-4 px-2 py-1 text-sm text-white">Rent</span></a>
+                        <h3 class="inline text-base" ><span class="font-semibold lg:text-lg text-base">500$</span>/month</h3>
+                    </div>
+                    <div class="flex justify-between items-center px-1">
+                        <img class="lg:w-6 lg:h-6 w-4 h-4 mr-1" src="img/like.png" alt="like">
+                        <span>360</span>
+                        <img class="mr-1 w-4 h-4" src="img/eye.png" alt="eye">
+                        <span>1.2k</span>
+                    </div>
+                </div>
+                        <div class="flex justify-between items-center px-1">
+                            <div class="flex items-center">
+                                <img class="w-8 h-8 bg-yellow-500" src="img/bed.png" alt="bed">
+                            <span>3 Bed</span>
+                            </div>
+                            <div class="flex items-center">
+                                <img class="w-8 h-8 bg-yellow-500" src="img/bath.png" alt="bath">
+                            <span>2 Bath</span>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <img class="w-6 h-6 bg-yellow-500" src="img/angle.png" alt="angle">
+                            <span>2300 Sq.ft</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- images-7 -->
+                 <div class=" mb-5">
+                    <div>
+                        <div>
+                            <img class="w-full rounded-lg mb-2" src="img/cards-2.jpg" alt="cards-2">
+
+                        </div>
+                        <div class="flex justify-between px-1">
+                            <h1 class="lg:text-2xl text-base font-semibold">Home in Metric Way</h1>
+                    <img class="w-8 h-8 bg-yellow-300" src="img/heart_icon.png" alt="heart_icon">
+                </div>
+                
+                <span class="block lg:text-lg text-base font-semibold opacity-25 mb-2 px-1">East Legon, Accra, Ghana</span>
+                <div class="flex justify-between items-center px-1 mb-2 ">
+                    <div>
+                        <span class="bg-yellow-300 lg:px-4 px-2 py-1 text-white">Buy</span>
+                        <span class="text-sm">125000$</span>
+                    </div>
+                    <div class="flex  items-center mb-3 px-1">
+                        <img class="lg:w-6 lg:h-6 w-4 h-4 mr-1" src="img/like.png" alt="like">
+                        <span>360</span>
+                        <img class="mr-1 w-4 h-4" src="img/eye.png" alt="eye">
+                        <span>1.2k</span>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center px-1">
+                            <div class="flex items-center">
+                                <img class="w-8 h-8 bg-yellow-500" src="img/bed.png" alt="bed">
+                            <span>3 Bed</span>
+                            </div>
+                            <div class="flex items-center">
+                                <img class="w-8 h-8 bg-yellow-500" src="img/bath.png" alt="bath">
+                            <span>2 Bath</span>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <img class="w-6 h-6 bg-yellow-500" src="img/angle.png" alt="angle">
+                            <span>2300 Sq.ft</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- images-8 -->
+
+                <div class=" mb-5">
+                    <div>
+                        <div>
+                            <img class=" w-full rounded-lg mb-2" src="img/cards-4.jpg" alt="cards-4">
+                        </div>
+                        <div class="flex justify-between  px-1">
+                            <h1 class="lg:text-2xl text-base font-semibold">Villa on Hollywood Boulevard</h1>
+                    <img class="w-8 h-8 " src="img/heart_icon.png" alt="heart_icon">
+                </div>
+                
+                <span class="block lg:text-lg text-base font-semibold opacity-25 mb-2 px-1">Eko Atlantic, Nigeria</span>
+                <div class="flex justify-between items-center mb-3 px-1">
+                    <div>
+                        <a href="#"><span class="bg-gray-300 lg:px-4 px-2 py-1 text-sm text-white">Rent</span></a>
+                        <h3 class="inline text-base" ><span class="font-semibold lg:text-lg text-base">500$</span>/month</h3>
+                    </div>
+                    <div class="flex justify-between items-center px-1">
+                        <img class="lg:w-6 lg:h-6 w-4 h-4 mr-1" src="img/like.png" alt="like">
+                        <span>360</span>
+                        <img class="mr-1 w-4 h-4" src="img/eye.png" alt="eye">
+                        <span>1.2k</span>
+                    </div>
+                </div>
+                        <div class="flex justify-between items-center px-3">
+                            <div class="flex items-center">
+                                <img class="w-8 h-8 bg-yellow-500" src="img/bed.png" alt="bed">
+                            <span>3 Bed</span>
+                            </div>
+                            <div class="flex items-center">
+                                <img class="w-8 h-8 bg-yellow-500" src="img/bath.png" alt="bath">
+                            <span>2 Bath</span>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <img class="w-6 h-6 bg-yellow-500" src="img/angle.png" alt="angle">
+                            <span>2300 Sq.ft</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+
+                         <!-- footer -->
+        <footer class="flex flex-col gap-20 px-5 lg:hidden">
+            <div class="w-full ">
+            <div class=" flex justify-between items-center w-full  ">
+                <img class="w-44  " src="img/Rehani.png" alt="Rehani">
+                <svg> <img class="w-12 h-12" src="img/cross.svg" alt="cross"></svg>
+            </div>
+        </div>
+<!-- 
+        <div class="w-full h-16 bg-gray-800 border-t-2 border-white
+        fixed left-0 bottom-0
+        flex justify-center items-center
+        text-white text-xl
+        ">
+        <ul class="text-white md:text-lg">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+        
+    </div> -->
+
+
+
+
+        <div class=" grid gap-5 grid-cols-1 md:grid-cols-2 lg:hidden w-full px-5 ">
+            <div>
+                <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div>
+                <ul class="text-white md:text-lg">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="text-white md:text-lg">
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">Agents</a></li>
+                    <li><a href="#">Rehani Users</a></li>
+                    <li><a href="#">Vendors</a></li>
+                    <li><a href="#">Rehani +</a></li>
+                    <li><a href="#">Featured Properties</a></li>
+                </ul>
+            </div>
+            <div class="text-white md:text-lg ">
+                <h3 class="mb-3">Newsletter</h3>
+                <form action="#" class="flex gap-1 ">
+                    <label for="email adress"></label>
+                    <input type="email" name="email-address" placeholder="Enter your email"  class="w-full sm:w-6/12 mr-1 px-4 py-2 rounded-full placeholder-gray-500 text-base  " >
+                    <button class="bg-yellow-400 px-4 py-2 rounded-full text-white text-xl">subscribe</button>
+                </form>
+                <h4 class="mt-3">$USD</h4>
+            </div>
+        </div>
+        </footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <!-- profile copy&paste -->
+        <!-- <div class="carousel-inner carousel w-full relative overflow-hidden "> -->
+         <!--Slide 1-->
+         <!-- <input class="carousel-open " type="radio" id="carousel-1" name="carousel"  aria-hidden="true" >
+         <div class="carousel-item absolute opacity-0">
+          <img class="w-full rounded-lg" src="img/cards-1.jpg" alt="card-1">
+        </div> -->
+        <!-- <label for="carousel-3" class="absolute inset-y-0 left-0 z-10 hidden w-10 h-10 my-auto ml-2 text-3xl font-bold leading-tight text-center text-black bg-white rounded-full cursor-pointer prev control-1 hover:text-white hover:bg-blue-700">‹</label>
+        <label for="carousel-2" class="absolute inset-y-0 right-0 z-10 hidden w-10 h-10 my-auto mr-2 text-3xl font-bold leading-tight text-center text-black bg-white rounded-full cursor-pointer next control-1 hover:text-white hover:bg-blue-700">›</label>
+                                   -->
+        <!--Slide 2-->
+        <!-- <input class="carousel-open " type="radio" id="carousel-2" name="carousel" checked="checked" aria-hidden="true"  >
+        <div class="carousel-item absolute opacity-0">
+          <img class="w-full  rounded-lg" src="img/cards-3.jpg" alt="card-3">
+          </div>
+        <label for="carousel-1" class="absolute inset-y-0 left-0 z-10 hidden w-10 h-10 my-auto ml-2 text-3xl font-bold leading-tight text-center text-black bg-white rounded-full cursor-pointer prev control-2 hover:text-white hover:bg-blue-700">‹</label>
+        <label for="carousel-3" class="absolute inset-y-0 right-0 z-10  w-10 h-10 my-auto mr-2 text-3xl font-bold leading-tight text-center text-black bg-white rounded-full cursor-pointer next control-2 hover:text-white hover:bg-blue-700">›</label>
+                                   -->
+        <!--Slide 3-->
+        <!-- <input class="carousel-open " type="radio" id="carousel-3" name="carousel" aria-hidden="true"  >
+        <div class="carousel-item absolute opacity-50" >
+          <img class="w-full  rounded-lg" src="img/cards-4.jpg" alt="card-4">
+        </div>
+        <label for="carousel-2" class="absolute inset-y-0 left-0 top-20% z-10  w-10 h-10 my-auto ml-2 text-3xl font-bold leading-tight text-center text-black bg-white rounded-full cursor-pointer prev control-3 hover:text-white hover:bg-blue-700">‹</label>
+        <label for="carousel-1" class="absolute inset-y-0 right-0 top-20% z-10 w-10 h-10 my-auto mr-2 text-3xl font-bold leading-tight text-center text-black bg-white rounded-full cursor-pointer next control-3 hover:text-white hover:bg-blue-700">›</label>
+                                  
+                                        
+                                      
+     </div> -->
+
+
+
+</body>
+</html>
